@@ -372,7 +372,7 @@ const DateRangePicker = ({
                   buttonTextStyle={buttonTextStyle}
                   onPress={today}
                 >
-                  Today
+                  Bugün
                 </Button>
                 {range && (
                   <>
@@ -381,14 +381,14 @@ const DateRangePicker = ({
                       buttonTextStyle={buttonTextStyle}
                       onPress={thisWeek}
                     >
-                      This Week
+                    Bu Hafta
                     </Button>
                     <Button
                       buttonStyle={buttonStyle}
                       buttonTextStyle={buttonTextStyle}
                       onPress={thisMonth}
                     >
-                      This Month
+                    Bu Ay
                     </Button>
                   </>
                 )}
