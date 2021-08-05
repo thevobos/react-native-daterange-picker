@@ -1,4 +1,5 @@
-import momentDefault from "moment";
+import momentDefault from "moment/min/moment-with-locales";
+
 import PropTypes from "prop-types";
 import React, { useState, useEffect, useCallback } from "react";
 import {
@@ -15,6 +16,9 @@ import Header from "./components/Header";
 import { height, width } from "./modules";
 import chevronL from "./assets/chevronL.png";
 import chevronR from "./assets/chevronR.png";
+
+moment.locale("tr");
+
 
 const DateRangePicker = ({
   moment,
