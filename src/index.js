@@ -17,7 +17,7 @@ import { height, width } from "./modules";
 import chevronL from "./assets/chevronL.png";
 import chevronR from "./assets/chevronR.png";
 
-moment.locale("tr");
+momentDefault.locale("tr");
 
 
 const DateRangePicker = ({
